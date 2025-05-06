@@ -1,38 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    background-color: #05161a;
+    width: 500px;
+    height: 700px;
+    margin: 3% auto;
+    border-radius: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Display {
+    border-radius: 10px;
+    background-color: #072e33;
+    height: 120px;
+    width: 455px;
+    margin: 35px 20px;
+
+    & input {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: right;
+        width: 99%;
+        height: 50%;
+        background-color: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        
+    }
+
+    & input::placeholder {
+        color: rgb(228, 228, 228);     
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Buttons {
+    margin: 0 auto;
+    width: 455px;
+    height: 450px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ButtonLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 455px;
+    height: 75px;
 }
 
-.App-link {
-  color: #61dafb;
+.Button {
+    border-radius: 100px;
+    background-color: #294d61;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ButtonD {
+    border-radius: 100px;
+    background-color: #6da5c0;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+}
+
+.ButtonE {
+    border-radius: 100px;
+    background-color: #0f968c;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+}
+
+.Button0 {
+    border-radius: 100px;
+    background-color: #6da5c0;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    width: 190px;
+    height: 80px;
+}
+
+.ButtonC {
+    border-radius: 100px;
+    background-color: #3482a9;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    width: 190px;
+    height: 80px;
+}
+
+.Footer {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
