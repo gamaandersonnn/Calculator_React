@@ -120,7 +120,7 @@ function App() {
         </div>
       </div>
       <footer className='Footer'>
-        <p>Desenvolvido por Gama, Anderson</p>
+        <p>Desenvolvido por <a href='https://github.com/gamaandersonnn'>github.com/gamaandersonnn</a></p>
       </footer>
     </>
   );
